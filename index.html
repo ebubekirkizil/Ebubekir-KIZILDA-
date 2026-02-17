@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ebubekir Kızıldaş | Vizerio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #000000; /* Vizerio kurumsal siyah/koyu gri */
+            --accent-color: #3b82f6; /* Marketing vurgu rengi */
+            --bg-color: #f3f4f6;
+            --text-color: #111827;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: var(--bg-color);
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            color: var(--text-color);
+        }
+
+        .card {
+            width: 85%;
+            max-width: 380px;
+            background: #ffffff;
+            border-radius: 24px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            text-align: center;
+            padding: 2.5rem 1.5rem;
+        }
+
+        .logo {
+            font-weight: 800;
+            font-size: 1.2rem;
+            letter-spacing: 2px;
+            margin-bottom: 1rem;
+            color: var(--primary-color);
+        }
+
+        .profile-img {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid var(--accent-color);
+            margin-bottom: 1rem;
+            padding: 3px;
+        }
+
+        h1 { margin: 0.5rem 0; font-size: 1.4rem; font-weight: 700; }
+        p.company { color: var(--accent-color); font-weight: 600; margin: 0; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px; }
+        p.title { color: #6b7280; margin: 0.3rem 0 1.5rem 0; font-size: 1rem; }
+
+        .links { display: flex; flex-direction: column; gap: 0.8rem; }
+
+        .link-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            padding: 14px;
+            border-radius: 14px;
+            text-decoration: none;
+            color: white;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: all 0.3s ease;
+        }
+
+        .vcard-btn { background-color: var(--primary-color); }
+        .whatsapp-btn { background-color: #25d366; }
+        .web-btn { background-color: #3b82f6; }
+        .linkedin-btn { background-color: #0077b5; }
+
+        .link-btn:active { transform: scale(0.97); opacity: 0.9; }
+
+        .footer { margin-top: 2rem; font-size: 0.75rem; color: #9ca3af; }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="logo">VIZERIO</div>
+        
+        <img src="https://ui-avatars.com/api/?name=Ebubekir+Kizildas&background=3b82f6&color=fff&size=128" alt="Ebubekir Kızıldaş" class="profile-img">
+        
+        <h1>Ebubekir Kızıldaş</h1>
+        <p class="company">Vizerio</p>
+        <p class="title">Dijital Pazarlama & Marketing Uzmanı</p>
+
+        <div class="links">
+            <a href="rehber.vcf" class="link-btn vcard-btn">
+                <i class="fas fa-user-plus"></i> Rehbere Kaydet
+            </a>
+
+            <a href="https://wa.me/905510698812" class="link-btn whatsapp-btn">
+                <i class="fab fa-whatsapp"></i> WhatsApp'tan Yaz
+            </a>
+
+            <a href="#" class="link-btn linkedin-btn">
+                <i class="fab fa-linkedin"></i> LinkedIn Profili
+            </a>
+
+            <a href="https://vizerio.com" class="link-btn web-btn">
+                <i class="fas fa-globe"></i> Vizerio Web Sitesi
+            </a>
+        </div>
+
+        <div class="footer">
+            &copy; 2026 Vizerio Digital Networking
+        </div>
+    </div>
+
+</body>
+</html>
